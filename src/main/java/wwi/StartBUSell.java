@@ -16,7 +16,7 @@ public class StartBUSell {
 	public static void main(String[] args) throws InterruptedException, AWTException {
 		final Robot robot = new Robot();
 		int sec = 1000;
-		int secpoly = 600;
+		int secpoly = 1000;
 
 		Thread.sleep(10 * sec);
 		do {
