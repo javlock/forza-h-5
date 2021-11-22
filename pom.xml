@@ -108,7 +108,25 @@
 							<goal>single</goal>
 						</goals>
 					</execution>
-					
+					<!-- PSE -->
+					<execution>
+						<id>make-WWI-PseRun</id>
+						<phase>package</phase>
+						<configuration>
+							<finalName>WWI-PseRun</finalName>
+							<archive>
+								<manifest>
+									<mainClass>wwi.PseRun</mainClass>
+								</manifest>
+							</archive>
+							<descriptorRefs>
+								<descriptorRef>jar-with-dependencies</descriptorRef>
+							</descriptorRefs>
+						</configuration>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
 				</executions>
 			</plugin>
 			<!--JAR -->
