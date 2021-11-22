@@ -15,8 +15,8 @@ public class StartBU {
 	public static void main(String[] args) throws InterruptedException, AWTException {
 		final Robot robot = new Robot();
 		int sec = 1000;
-		int secpoly = sec + sec / 2;
-		int sec8 = 8 * sec;
+		int secpoly = 600;
+		int sec8 = 5 * sec + 500;
 		int min = 60 * sec;
 
 		Thread.sleep(10 * sec);
