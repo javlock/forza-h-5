@@ -53,6 +53,7 @@
 							<goal>single</goal>
 						</goals>
 					</execution>
+					
 					<execution>
 						<id>make-WWI-sell</id>
 						<phase>package</phase>
@@ -71,6 +72,43 @@
 							<goal>single</goal>
 						</goals>
 					</execution>
+					<execution>
+						<id>make-WWI-StartBU</id>
+						<phase>package</phase>
+						<configuration>
+							<finalName>WWI-StartBU</finalName>
+							<archive>
+								<manifest>
+									<mainClass>wwi.StartBU</mainClass>
+								</manifest>
+							</archive>
+							<descriptorRefs>
+								<descriptorRef>jar-with-dependencies</descriptorRef>
+							</descriptorRefs>
+						</configuration>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>make-WWI-StartBUSell</id>
+						<phase>package</phase>
+						<configuration>
+							<finalName>WWI-StartBUSell</finalName>
+							<archive>
+								<manifest>
+									<mainClass>wwi.StartBUSell</mainClass>
+								</manifest>
+							</archive>
+							<descriptorRefs>
+								<descriptorRef>jar-with-dependencies</descriptorRef>
+							</descriptorRefs>
+						</configuration>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+					
 				</executions>
 			</plugin>
 			<!--JAR -->
